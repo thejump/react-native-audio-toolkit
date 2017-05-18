@@ -103,7 +103,7 @@ public class AudioRecorderModule extends ReactContextBaseJavaModule implements
         switch (name) {
             case "aac":
             case "mp4":
-                return MediaRecorder.AudioEncoder.HE_AAC;
+                return MediaRecorder.AudioEncoder.AAC;
             case "webm":
             case "ogg":
                 return MediaRecorder.AudioEncoder.VORBIS;
